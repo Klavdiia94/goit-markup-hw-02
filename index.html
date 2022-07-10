@@ -4,56 +4,58 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>WebStudio</title>
+        <link type="text/css" rel="stylesheet" href="./css/styles.css">
     </head>
+    <body class="container">
     <header>
-       <nav>
-        <a href="#" >
-            <img src="./images/logo.png" alt="logo">
-        </a>
-        <ul>
-            <li>
-                <a href="">
-                    Студия
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    Портфолио
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    Контакты
-                </a>
-            </li>
-        </ul>
-        </nav>
-        <ul>
-            <li>
-            <a href="mailto:info@devstudio.com">
-                info@devstudio.com
-            </a>
-            </li>
-            <li>
-            <a href="tel:+380961111111">
-                +38 096 111 11 11
-            </a>
-        </li>
-        </ul>
-    </header>
+        <nav>
+         <a href="#" >
+             <img src="./images/logo.png" alt="logo">
+         </a>
+         <ul class="pages">
+             <li class="item_menu item_menu_active">
+                 <a href="">
+                     Студия
+                 </a>
+             </li>
+             <li class="item_menu " >
+                 <a href="/portfolio.html">
+                     Портфолио
+                 </a>
+             </li>
+             <li class="item_menu">
+                 <a href="">
+                     Контакты
+                 </a>
+             </li>
+         </ul>
+         </nav>
+         <ul class="contact_info">
+             <li>
+             <a href="mailto:info@devstudio.com">
+                 info@devstudio.com
+             </a>
+             </li>
+             <li>
+             <a href="tel:+380961111111">
+                 +38 096 111 11 11
+             </a>
+         </li>
+         </ul>
+     </header>
     <main>
-        <section>
+        <section class="banner">
             <h1>
                 Эффективные решения для вашего бизнеса
             </h1>
-<button type="button">
+<button class="button_banner" type="button">
     Заказать услугу
 </button>
         </section>
-        <section>
+        <section class="skills">
             <h2>Основные скиллы</h2>
             <ul>
-                <li>
+                <li class="skills_item">
                     <h3>
                         Внимание к деталям
                     </h3>
@@ -61,7 +63,7 @@
                         Идейные соображения, а также начало повседневной работы по формированию позиции.
                     </p>
                 </li>
-                <li>
+                <li class="skills_item">
                     <h3>
                         Пунктуальность
                     </h3>
@@ -69,7 +71,7 @@
                         Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                     </p>
                 </li>
-                <li>
+                <li class="skills_item">
                     <h3>
                         Планирование
                     </h3>
@@ -77,7 +79,7 @@
                         Равным образом консультация с широким активом в значительной степени обуславливает.
                     </p>
                 </li>
-                <li>
+                <li class="skills_item">
                     <h3>
                         Современные технологии
                     </h3>
@@ -91,7 +93,7 @@
             <h2>
                 Чем мы занимаемся
             </h2>
-            <ul>
+            <ul class="whatwedo">
                 <li>
                     <img src="./images/img_1.png" alt="Whatwedo_keyboard" width="370"/>
                 </li>
@@ -103,11 +105,11 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="team">
             <h2>
                 Наша команда
             </h2>
-            <ul>
+            <ul class="team_list">
                 <li>
                     <img src="./images/team_img_1.jpeg" alt="Team_Ihor" width="270"/>
                     <h3>Игорь Демьяненко</h3>
@@ -134,15 +136,15 @@
     </main>
     <footer>
         <a href="#" >
-            WebStudio
+            <img src="./images/logo.png" alt="logo">
         </a>
         <address>
         <ul>
-            <li > <a href="https://goo.gl/maps/8QJtyLx6xkXjJmkd7" >г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="mailto:info@devstudio.com">info@example.com</a></li>
-            <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+            <li class="address"> <a href="https://goo.gl/maps/8QJtyLx6xkXjJmkd7" >г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="email"><a href="mailto:info@devstudio.com">info@example.com</a></li>
+            <li class="phone"><a href="tel:+380961111111">+38 099 111 11 11</a></li>
         </ul>
     </address>
-
     </footer>
+</body>
 </html>
