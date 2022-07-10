@@ -1,5 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
-    font-family: ;
+    color: #212121;
+    ;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    display: flex;
+}
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.pages {
+    display: flex;
+    list-style: none;
+    padding-left: 93px;
+}
+.pages a {
+    color: #212121; 
+    text-decoration: none;
+}
+.item_menu {
+    padding-right: 50px;
+}
+.contact_info {
+    list-style: none;
+    display: flex;
+}
+.contact_info a {
+    text-decoration: none;
+    color: #757575;
+}
+.contact_info li {
+    padding-right: 50px;
+}
+.filters {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.filters li {
+    background-color: #F5F4FA;
+    padding: 6px 22px 6px 22px;
+    width: max-content;
+    margin-right: 8px;
+}
+.filters li:active {
+    background-color: #2196F3;
+    color: #fff;
 }
